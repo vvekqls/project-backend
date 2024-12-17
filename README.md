@@ -25,8 +25,9 @@
 - this will run server
   - ```sh
     docker compose up --build
-    docker-compose exec -it server npx prisma migrate dev --name init
-    docker-compose exec -it server npm run seed
+    - while running docker container, open another terminal and follow commands below
+    docker exec -it server npx prisma migrate dev --name init
+    docker exec -it server npm run seed
     ```
 
 ### Starting Server
