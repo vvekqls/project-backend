@@ -1,19 +1,18 @@
 ## Setup
 
-- To run locally, install dependencies
-  - install nvm if no version found.
+- To run locally, install dependencies. Install nvm if no version found.
   ```sh
     nvm -v
   ```
-  - ```sh
-      nvm install 20.9.0
+  ```sh
+    nvm install 20.9.0
     ```
-  - ```sh
+  ```sh
     nvm use 20.9.0
   ```
-  - ```sh
+  ```sh
     npm install
-    ```
+  ```
 
 ### Environment variables
 
