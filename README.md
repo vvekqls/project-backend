@@ -17,6 +17,14 @@
 ### Environment variables
 
 - Copy and paste .env.example variables into a .env file or create your own variables.
+- Need to have setup own cloud db
+
+## Set up Prisma DB, locally if have cloud db
+``` sh
+  npx prisma generate
+  npx prisma db push
+  npm runn seed
+```
 
 ### Run Docker
 
@@ -25,9 +33,8 @@
 - this will run server
   - ```sh
     docker compose up --build
-    - while running docker container, open another terminal and follow commands below
-    docker exec -it server npx prisma migrate dev --name init
-    docker exec -it server npm run seed
+    docker-compose exec -it server npx prisma migrate dev --name init
+    docker-compose exec -it server npm run seed
     ```
 
 ### Starting Server
