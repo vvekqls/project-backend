@@ -1,4 +1,30 @@
-## Setup
+# Task Tracker App
+
+A full-stack task tracking application built with **Node.js**, **Express.js**, and **MySQL**, emphasizing clean architecture and modularity.
+
+## Features
+
+- **Task Management**: Create, read, update, and delete tasks.
+- **Backend**: Express.js server handling API requests.
+- **Database Integration**: MySQL database managed with Prisma ORM.
+- **Dockerized Environment**: Easy setup and deployment using Docker.
+
+## Technologies Used
+
+- **Backend**: Express.js, Node.js
+- **Database**: MySQL, Prisma ORM
+- **Containerization**: Docker, Docker Compose
+- **Version Management**: NVM (Node Version Manager)
+
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed. This project uses version `20.9.0`.
+- **NVM**: Node Version Manager is recommended for managing Node.js versions.
+- **Docker**: Required for containerizing the application and database.
+- **Git**: For cloning the repository.
+  
+## Installation
 
 - To run locally, install dependencies. Install nvm if no version found.
   ```sh
