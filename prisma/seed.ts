@@ -5,11 +5,34 @@ async function main() {
   const tasks = [
     {
       title: 'Acme Corp',
-      color: 'red',
+      color: '#ff0000',
       completed: false,
       id: '1',
+    },
+    {
+      title: 'Acme Corp',
+      color: '#ff0000',
+      completed: false,
+      id: '2',
+    },
+    {
+      title: 'Acme Corp',
+      color: '#ff0000',
+      completed: false,
+      id: '3',
+    },
+    {
+      title: 'Acme Corp',
+      color: '#ff0000',
+      completed: false,
+      id: '4',
+    },
+    {
+      title: 'Acme Corp',
+      color: '#ff0000',
+      completed: false,
+      id: '5',
     }
-
   ];
 
   for (const task of tasks) {
