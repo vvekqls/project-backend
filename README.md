@@ -59,8 +59,8 @@ A full-stack task tracking application built with **Node.js**, **Express.js**, a
 - this will run server
   - ```sh
     docker compose up --build
-    docker-compose exec -it server npx prisma migrate dev --name init
-    docker-compose exec -it server npm run seed
+    docker compose exec -it server npx prisma migrate dev --name init
+    docker compose exec -it server npm run seed
     ```
 
 ### Starting Server
