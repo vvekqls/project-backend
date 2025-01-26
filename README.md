@@ -43,7 +43,7 @@ A full-stack task tracking application built with **Node.js**, **Express.js**, a
 ### Environment variables
 
 - Copy and paste .env.example variables into a .env file or create your own variables.
-- Need to have setup own cloud db
+- Need to have setup own MySQL cloud db
 
 ## Set up Prisma DB, locally if have cloud db
 ``` sh
